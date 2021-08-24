@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+ASSIGNMENT TOPIC
+You are creating a website to showcase your favourite music albums.
+In this page you will have a short biography section of yourself, the top albums of your life, 
+the worst album you ever listened to and everything related to the music you love.
+
+ASSIGNMENT RULES
+- The project must be pushed to a new repository and linked in EduFlow by the end of the day.
+- You can google / use StackOverflow BUT we suggest you to use just the material provided and documentation.
+- To test the page, open it with your browser and inspect it with developer tools / device emulator.
+- Use Bootstrap4.6 classes to create the page.
+- Use containers, rows and cols in order to achieve a great responsive layout.
+
+NOTE:
+Even the most experienced designers need inspiration.
+Spend some time surfing the web researching the best way of representing the albums you love.
+Could be the Amazon way, the Spotify or Apple music way or any other music collection out there.
+
+HINT: Manage your time in order to finish the structure and responsiveness before focusing on the details.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
+
+    <style>
+        .album-container {
+            width: 250px;
+            height: 450px;
+        }
+        .album-cover {
+            width: 250px;
+            height: 250px;
+        }
+        .album-title {
+            font-size: larger;
+        }
+        .album-performer {
+            font-size: large;
+            font-style: italic;
+        }
+        .album-genre {
+            font-style: oblique;
+            font-size: medium;
+        }
+        .album-duration {
+            font-size: smaller;
+            color: lightgrey;
+        }
+        .album-description {
+            font-size: medium;
+        }
+        /* EXERCISE 1
+            For every Album we'd like to have a consistent style.
+            Therefore you should create a class for each of the following elements:
+            - The album container
+            - The album cover
+            - The album title
+            - The album group / singer / dj
+            - The album genre
+            - The album duration
+            - etc
+
+            ...to make sure you give every album the same consistent appearance.
+         */
+    </style>
+</head>
+
+<body>
+
+    <!-- EXERCISE 6
+            Do you have any musician / band you admire or you are a fan of?
+            This section is dedicated to him / her / them!
+            Feel free to experiment in this part of the page.
+        -->
+
+    <!-- EXERCISE 7
+            Just covers!
+            Create a tapestry of album pictures. Every album picture must be "squared" (use CSS to achieve that).
+            Put at least 20 covers (also repeated) to have a nice tapestry effect and see how Bootstrap handles it.
+        -->
+
+    <!-- EXERCISE 8
+            Implement a footer with some information / social links.
+        -->
+
+    <!-- ############ EXTRA:
+        EXERCISE 9
+            Create an album details area which will be toggled on and off by clicking on the album image.
+        -->
+
+    <!-- EXERCISE 10
+            Add a button to each section. By clicking on it the section body appears (if hidden) or disappears (if visible).
+            (hint: look for a boostrap component that can handle the job for you. You can always rely on DOM manipulation if you can't find it)
+        -->
+
+    <!--
+         EXERCISE 11
+            Add in the footer a field that counts, on page load, how many ALBUMS are present on the page.
+        -->
+</body>
+
+</html>
+
+    <!-- <div class="album-container">
+        <div><img class="album-cover" src="https://images.unsplash.com/photo-1629516675579-9d3e908ebc17?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80"></div>
+        <div class="album-title">The Booketh</div>
+        <div class="album-duration">47 mins</div>
+        <div class="album-performer">Davy Lee</div>
+        <div class="album-genre">Alt Metal</div>
+        <div class="album-decription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat soluta ex qui?</div>
+    </div> -->
